@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "react/forbid-prop-types": "off",
+    "react/require-default-props": "off",
+    "react/no-did-mount-set-state": "off"
+  }
+}
