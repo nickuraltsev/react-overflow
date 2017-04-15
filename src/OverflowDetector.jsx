@@ -36,7 +36,7 @@ export default class OverflowDetector extends Component {
   checkOverflow() {
     const isOverflowed =
       this.domElement.scrollWidth > this.domElement.clientWidth ||
-      this.domElement.scrollHeight > this.domElement.scrollHeight;
+      this.domElement.scrollHeight > this.domElement.clientHeight;
 
     if (isOverflowed !== this.isOverflowed) {
       this.isOverflowed = isOverflowed;
