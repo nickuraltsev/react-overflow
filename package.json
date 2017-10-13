@@ -37,6 +37,13 @@
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
   },
+  "prettier": {
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true
+  },
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm run clean && babel src --out-dir lib",
