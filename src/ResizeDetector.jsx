@@ -33,7 +33,10 @@ export default class ResizeDetector extends Component {
   }
 
   componentWillUnmount() {
-    this.domElement.contentDocument.defaultView.removeEventListener('resize', this.props.onResize);
+    this.domElement.contentDocument.defaultView.removeEventListener(
+      'resize',
+      this.props.onResize
+    );
   }
 
   setDOMElement(domElement) {
@@ -41,7 +44,10 @@ export default class ResizeDetector extends Component {
   }
 
   handleLoad() {
-    this.domElement.contentDocument.defaultView.addEventListener('resize', this.props.onResize);
+    this.domElement.contentDocument.defaultView.addEventListener(
+      'resize',
+      this.props.onResize
+    );
   }
 
   render() {
