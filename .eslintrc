@@ -2,8 +2,15 @@
   "extends": "airbnb",
   "parser": "babel-eslint",
   "rules": {
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
     "react/forbid-prop-types": "off",
     "react/require-default-props": "off",
-    "react/no-did-mount-set-state": "off"
+    "react/no-did-mount-set-state": "off",
   }
 }
