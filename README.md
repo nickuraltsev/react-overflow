@@ -1,5 +1,8 @@
 # react-overflow
 
+[![npm version](https://badge.fury.io/js/react-overflow.svg)](https://badge.fury.io/js/react-overflow)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nickuraltsev/react-overflow/master/LICENSE)
+
 A React component that detects when it's overflowed by its content.
 
 ## Installation
