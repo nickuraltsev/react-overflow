@@ -1,6 +1,6 @@
 {
   "name": "react-overflow",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A React component that detects when it's overflowed by its content",
   "keywords": [
     "react",
